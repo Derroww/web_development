@@ -1,0 +1,74 @@
+*{
+    color: rgb(207, 65, 70);
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+div{
+    background-color: azure;
+}
+
+#courses-container{
+    background-color: blueviolet;
+}
+
+.course-card{
+    background-color: aquamarine;
+}
+
+nav ul li a{
+    color: blanchedalmond;
+}
+
+header > a{
+    color: green;
+    font-size: medium;
+}
+
+p{
+    color: red;
+}
+
+h4 + p{
+    color: maroon;
+}
+
+button{
+    border-radius: 15%;
+    /* border-color: rgb(147, 5, 5);
+    border-style: solid;
+    border-width: 3px; */
+    border: solid 3px red;
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline red 4px;
+}
+
+p{
+    line-height: 200%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline;
+    padding-right: 2px;
+    margin: 2px;
+}
+
+
+#hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Teacher-classroom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    cursor: pointer;
+}
